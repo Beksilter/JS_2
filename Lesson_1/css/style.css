@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: Ubuntu;
+  background-color: #CCCCCC;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.headerContent, .mainContent {
+  padding: 30px calc(50vw - 500px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #CCCCCC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title h1 {
+  margin: 1rem 2rem;
+}
+
+.products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  padding: 1rem 0 1rem 0;
+  gap: 1rem;
+}
+
+.products .product {
+  min-height: 100px;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.products .product img {
+  width: 100%;
+}
+
+.products .product h3 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.products .product p {
+  font-size: 1rem;
+  color: #666666;
+  font-weight: bold;
+  padding: 0 0 1rem;
+}
+
+.buy-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3333FF), color-stop(50%, #3300FF), color-stop(75%, #3300CC));
+  background-image: linear-gradient(to right, #3333FF 0%, #3300FF 50%, #3300CC 75%);
+  background-size: 200% auto;
+  -webkit-box-shadow: 0 0 20px rgba(168, 167, 178, 0.1);
+          box-shadow: 0 0 20px rgba(168, 167, 178, 0.1);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.buy-button:hover {
+  background-position: right center;
+}
