@@ -1,0 +1,47 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Keyboard",
+    "price": 2100
+  },
+  {
+    "id_product": 2,
+    "product_name": "Gamepad",
+    "price": 5700
+  },
+  {
+    "id_product": 3,
+    "product_name": "CPU",
+    "price": 32000
+  },
+  {
+    "id_product": 4,
+    "product_name": "Motherboard",
+    "price": 10000
+  },
+  {
+    "id_product": 5,
+    "product_name": "Video card",
+    "price": 70000
+  },
+  {
+    "id_product": 6,
+    "product_name": "RAM",
+    "price": 16500
+  },
+  {
+    "id_product": 7,
+    "product_name": "Power Supply",
+    "price": 8200
+  },
+  {
+    "id_product": 8,
+    "product_name": "SSD",
+    "price": 14900
+  },
+  {
+    "id_product": 9,
+    "product_name": "Cooler",
+    "price": 7000
+  }
+]
