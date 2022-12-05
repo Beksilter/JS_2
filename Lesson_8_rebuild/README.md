@@ -1,0 +1,5 @@
+﻿# Максимально упрощенный, но рабочий
+ npm install     
+npm install -g nodemon  
+nodemon server/server.js
+http://localhost:3000/

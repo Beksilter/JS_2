@@ -1,0 +1,77 @@
+body {
+  background: url(../img/burger.jpg);
+  background-attachment: fixed;
+  backdrop-filter: brightness(.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+label {
+  display: inline;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form_box {
+  opacity: .9;
+  padding: 2rem;
+  background: white;
+  font-size: 1.1rem;
+}
+.form_box form {
+  display: flex;
+  flex-direction: column;
+}
+.form_box button  {
+  align-self: flex-end;
+
+  width: 10rem;
+  z-index: 2;
+}
+
+.label {
+  width: 120px;
+}
+
+.text-warning{
+  color: darkgreen!important;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total div {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+div.py-4.total.font-weight-bold {
+  padding: 2rem  .5rem  .5rem  .5rem!important;
+}
+
+
+element.style {
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.form_box button {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 10rem;
+    z-index: 2;
+}
+
+.btn-success {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
